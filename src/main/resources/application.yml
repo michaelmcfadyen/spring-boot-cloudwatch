@@ -1,0 +1,6 @@
+management.metrics.export.cloudwatch:
+  enabled: true
+  namespace: namespace
+  step: 5s
+  numThreads: 10
+  batchSize: 10
